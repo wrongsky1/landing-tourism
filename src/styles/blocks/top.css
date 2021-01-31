@@ -1,0 +1,64 @@
+.top {
+    margin-bottom: 86px;
+}
+
+.top__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+
+.top__title {
+    margin-bottom: 54px;
+}
+
+.top__card-pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.top__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--basic-light);
+    margin: 0 auto 0 0;
+}
+
+.top__card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, .6);
+    padding: 16px 25px;
+    justify-content: flex-end;
+}
+
+.top__card-likes {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--basic-light);
+    padding-right: 20px;
+    background: url(../../images/svg/top-like.svg) no-repeat right;
+    margin-right: 14px;
+}
+
+.top__card-comments {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--basic-light);
+    padding-right: 23px;
+    background: url(../../images/svg/top-comment.svg) no-repeat right;
+}
+
+.top__card-desc {
+    margin-bottom: 31px;
+    font-size: 16px;
+    line-height: 24px;
+}

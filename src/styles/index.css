@@ -1,0 +1,19 @@
+/* Global */
+
+@import 'fonts.css';
+@import 'box-model.css';
+@import 'variables.css';
+
+/* Blocks */
+
+@import 'blocks/body.css';
+@import 'blocks/section.css';
+@import 'blocks/wrapper.css';
+@import 'blocks/header.css';
+@import 'blocks/main.css';
+@import 'blocks/intro.css';
+@import 'blocks/search-form.css';
+@import 'blocks/benefits.css';
+@import 'blocks/places.css';
+@import 'blocks/tours.css';
+@import 'blocks/top.css';
