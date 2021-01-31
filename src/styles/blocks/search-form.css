@@ -43,5 +43,5 @@
 }
 
 .search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active {
-    background: #32588c;
+    background: var(--background-dark);
 }

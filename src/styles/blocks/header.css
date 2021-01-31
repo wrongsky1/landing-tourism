@@ -6,6 +6,13 @@
     top: 0;
     left: 0;
     width: 100%;
+    transition: .2s linear;
+    padding-bottom: 20px;
+    z-index: 999;
+}
+
+.header__active {
+    background: var(--background-dark);
 
 }
 
@@ -15,22 +22,6 @@
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 56px;
-}
-
-.header__logo {
-
-}
-
-.header__logo-link {
-
-}
-
-.header__logo-pic {
-
-}
-
-.header__nav {
-
 }
 
 .header__list {

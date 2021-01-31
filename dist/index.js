@@ -1,1 +1,1 @@
-"use strict";
+"use strict";!function(){const e=document.querySelector(".header");window.onscroll=()=>{window.pageYOffset>50?e.classList.add("header__active"):e.classList.remove("header__active")}}();
