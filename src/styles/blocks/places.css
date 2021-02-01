@@ -34,7 +34,8 @@
 .places__cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .places__card {
@@ -101,4 +102,32 @@
     width: 100%;
     height: 100%;
     z-index: 4;
+}
+
+@media screen and (max-width: 960px) {
+    .places__card_size_lg {
+        grid-column: span 6;
+    }
+    
+    .places__card_size_sm {
+        grid-column: span 6;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .places__view-all {
+        margin-top: 25px;
+    }
+
+    .places__card-pic_size_lg, .places__card-pic_size_sm {
+        height: 230px;
+    }
+
+    .places__card-title {
+        left: 15px;
+    }
+
+    .places {
+        margin-bottom: 70px;
+    }
 }
