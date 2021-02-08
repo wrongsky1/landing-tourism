@@ -21,3 +21,5 @@
 - Использование JS для шапки сайта и меню
 
 ## Ссылка на сайт:
+
+https://wrongsky1.github.io/landing-tourism/
